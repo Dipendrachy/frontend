@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #ffffff !important;
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+  margin-top: -15px;
+  padding: 45px;
+}
+
+
+.Dropdown{
+  margin-left: 10%;
+}
+
+.mr-auto{
+  margin-left: 65%;
+  padding: 15px;
+}
+
+.signup-form{
+  margin-top: 100px;
+}
+
+.header{
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 95%;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+}
+
+.login-form{
+  margin-top: 60px;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 500px;
+  height: 680px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: #167bff;
+}
+
+
+/* for add-flight */
+.auth-inner-addform {
+  width: 500px;
+  height: 740px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.btn-primary{
+  height: 50px;
+}
+
+.form-control-img {
+  display: block;
+  width: 100%;
+  height: calc(1.6em + .85rem + 5px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+ /* FOR CARD VIEW */
+ /* .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 1.6rem;
+  height: 450px;
+} */
+
+.card-title{
+  font-style: bold;
+  font-family: 'Fira Sans', 'Varela';
+}
+
+.p-3 {
+  padding: 1rem!important;
+  margin-top: -100px;
+}
+
+.AddBookingCARD{
+  height: 100%;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+.btn-right{
+  width: 100px;
+  margin-right: 10px;
+}
+.btn-book{
+  width: 300px;
+  margin-top: 3 0px;
+}
+
+.btn-left{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.header-middle{
+  text-align: center;
+  font-size: 2rem;
+  margin-block-end: 30px;
+}
+
+.text-left-header{
+ text-align: left;
+}
+
+.details-body{
+  font-size:1rem;
+}
+
+
+
+/*Company-User .......... */
+ .auth-inner-company {
+  width: 1000px;
+  height: 1100px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+} 
+
+.auth-wrapper-company {
+
+  
+  margin-top:50px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*Hotel-User .......... */
+ .auth-inner-hotel {
+  width: 700px;
+  height: 1100px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+} 
+
+.auth-wrapper-hotel {
+
+  
+  margin-top:50px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/*-User .......... */
+.auth-inner-customer {
+  width: 1000px;
+  height: 1100px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+} 
+
+.auth-wrapper-customer {
+
+  
+  margin-top:50px;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* for-update-booking-form */
+
+.auth-wrapper-update {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner-update {
+  margin-left: 60%;
+  margin-top: 40px;
+  width: 500px;
+  height: 700px;
+  /* margin: auto; */
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+
+/* ////for user profile// */
+
+/* .profile-header{
+  font-size: 3rem;
+} */
+
+body {
+  background-color: #ffffff
+}
+
+.padding {
+  padding: 3rem !important
+}
+
+.user-card-full {
+  overflow: hidden
+}
+
+.card {
+  margin-top: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border: none;
+  width: 700px;
+}
+
+.m-r-0 {
+  margin-right: 0px
+}
+
+.m-l-0 {
+  margin-left: 0px
+}
+
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px
+}
+
+.user-profile{
+ height: 500px;
+}
+
+
+.bg-c-lite-green {
+  background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+  background: linear-gradient(to right, #ee5a6f, #f29263)
+}
+
+.user-profile {
+  padding: 20px 0
+}
+
+.card-block {
+  padding: 1.25rem
+}
+
+.m-b-25 {
+  margin-bottom: 25px
+}
+
+.img-radius {
+  border-radius: 5px
+}
+
+h6 {
+  font-size: 14px
+}
+
+.card .card-block p {
+  line-height: 25px
+}
+
+@media only screen and (min-width: 1400px) {
+  p {
+      font-size: 14px
+  }
+}
+
+.card-block {
+  padding: 1.25rem
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0
+}
+
+.m-b-20 {
+  margin-bottom: 20px
+}
+
+.p-b-5 {
+  font-size: 2rem;
+  padding-bottom: 5px !important
+}
+
+.card .card-block p {
+  line-height: 25px
+}
+
+.m-b-10 {
+  margin-bottom: 10px
+}
+
+.text-muted {
+  color: #919aa3 !important
+}
+
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.m-b-20 {
+  margin-bottom: 20px
+}
+
+.m-t-40 {
+  margin-top: 20px
+}
+
+.p-b-5 {
+  padding-bottom: 5px !important
+}
+
+.m-b-10 {
+  margin-bottom: 10px
+}
+
+.m-t-40 {
+  margin-top: 20px
+}
+
+.user-card-full .social-link li {
+  display: inline-block
+}
+
+.user-card-full .social-link li a {
+  font-size: 20px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out
+}
+
+.btn-edit{
+  margin-top: 10px;
+  margin-left: 150px;
+  width: 100px;
+  border-radius: 15px;
+  height: 30px;
+}
+
+
+.social-group{
+  margin-top: 90px;
+}
+
+
+
+/* FOR CONTACT---------------------------------------------------------------------------------- */
+
+body{
+  background-color: #25274d;
+}
+
+.auth-inner-contact {
+  width: 1300px;
+  height: 550px;
+  margin-top: 100px;
+  margin-left:20%;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 0.5rem;
+  transition: all .3s;
+}
+
+.container-contact{
+  padding: 4%;
+  width: 1300px;
+  height: 400px;
+  margin-top: -18px;
+  margin-left: -88px;
+}
+.col-md-3{
+  background: #ff9b00;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+  margin-top:10%;
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+.col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}
+.form-group-contact{
+  margin-top: 20px;
+  text-align: left;
+  font-size: 1rem; 
+}
+
+.contact-form{
+  margin-top: -10px;
+}
+.row-contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -30px;
+}
